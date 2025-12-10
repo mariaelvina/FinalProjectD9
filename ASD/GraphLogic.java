@@ -160,3 +160,65 @@ public class GraphLogic {
 
         System.out.println("\nNumber of Potential Friends: " + urut.size());
     }
+    // Cari jalur path BFS
+    public void findPath(String start, String target) {
+        if (!graph.containsKey(start) || !graph.containsKey(target)) {
+            System.out.println("One Name Not Found in Graph.");
+            return;
+        }
+
+        Queue<String> queue = new LinkedList<>();
+        Map<String, String> parent = new HashMap<>();
+        Set<String> visited = new HashSet<>();
+
+        queue.add(start);
+        visited.add(start);
+        parent.put(start, null);
+
+        boolean found = false;
+
+        while (!queue.isEmpty()) {
+            String current = queue.poll();
+
+            if (current.equals(target)) {
+                found = true;
+                break;
+            }
+
+            for (String neighbor : graph.get(current)) {
+                if (!visited.contains(neighbor)) {
+                    visited.add(neighbor);
+                    parent.put(neighbor, current);
+                    queue.add(neighbor);
+                }
+            }
+        }
+
+        if (!found) {
+            System.out.println("\nNo Path exists from " + start + " to " + target);
+            return;
+        }
+
+        List<String> path = new ArrayList<>();
+        String step = target;
+        while (step != null) {
+            path.add(step);
+            step = parent.get(step);
+        }
+
+        Collections.reverse(path);
+
+        System.out.println("\nPath from " + start + " to " + target + ":");
+        for (int i = 0; i < path.size(); i++) {
+            System.out.print(path.get(i));
+            if (i < path.size() - 1) System.out.print(" -> ");
+        }
+        System.out.println();
+    }
+
+    public void printGraph() {
+        System.out.println("\n===== Graph =====");
+        for (String namaOrang : graph.keySet()) {
+            System.out.println(namaOrang + " -> " + graph.get(namaOrang)); }
+    }
+}

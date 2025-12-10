@@ -8,8 +8,8 @@ public class CSVLoader {
 
     public static void loadFriendshipsFromCSV(GraphLogic graph) {
 
-        String filePath = "src/Simulasi/input.csv";
-        // langsung baca input.csv
+        String filePath = "ASD/input.csv";
+        // baca input.csv
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
 
@@ -42,7 +42,6 @@ public class CSVLoader {
             }
 
         } catch (IOException e) {
-            // silent: tidak print apa pun
         }
     }
 }

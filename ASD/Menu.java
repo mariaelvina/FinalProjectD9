@@ -123,4 +123,72 @@ public class Menu {
         }
     }
 
+    // FIND PATH
+    private void findPathMenu() {
+
+        while (true) {
+            System.out.println("\n=== FIND CONNECTION PATH ===");
+
+            System.out.print("From: ");
+            String start = sc.nextLine();
+
+            System.out.print("To: ");
+            String target = sc.nextLine();
+
+            graph.findPath(start, target);
+            waitEnter();
+
+            System.out.println("\nSelect next action: ");
+            System.out.println("1. Search again");
+            System.out.println("0. Back to Main Menu");
+            System.out.print("Choose: ");
+            String pilih = sc.nextLine();
+
+            if (!pilih.equals("1")) return;
+        }
+    }
+
+    // SHOW GRAPH
+    private void showGraphMenu() {
+        System.out.println("\n=== ALL CONNECTION ===");
+        graph.printGraph();
+        waitEnter();
+    }
+
+    // REMOVE CONNECTION
+    private void removeConnectionMenu() {
+
+        while (true) {
+            System.out.println("\n=== REMOVE CONNECTION ===");
+
+            System.out.print("Enter your name: ");
+            String p1 = sc.nextLine().trim();
+
+            System.out.print("Enter name of friend to remove: ");
+            String p2 = sc.nextLine().trim();
+
+            if (!graph.contains(p1) || !graph.contains(p2)) {
+                System.out.println("\nOne or both names do not exist in the network!");
+                waitEnter();
+            } else if (!graph.areConnected(p1, p2)) {
+                System.out.println("\nThey are not connected!");
+                waitEnter();
+            } else {
+                graph.removeConnection(p1, p2);
+                System.out.println("\nConnection removed!");
+                waitEnter();
+            }
+
+            System.out.println("\nSelect next action:");
+            System.out.println("1. Remove another");
+            System.out.println("0. Back to Main Menu");
+            System.out.print("Choose: ");
+
+            String pilih = sc.nextLine();
+
+            if (!pilih.equals("1")) return;
+        }
+    }
+}
+
 

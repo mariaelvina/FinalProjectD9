@@ -4,9 +4,19 @@ Topik : Sistem Rekomendasi Teman Berdasarkan Mutual Friends
 
 Tema : Implementasi Struktur Data Graph, BFS, dan Algoritma Sorting untuk Fitur Rekomendasi di Media Sosial
 
-Maria Elvina Putri Damayanti 5026241012
 
+Kelas : D
 
-Tavasya Alia Anjani 5026251067
+Kelompok : 9
 
-Rofifah Zain Nur Alfiyah 5026241131
+Anggota : 
+
+Maria Elvina Putri Damayanti (5026241012)
+
+Tavasya Alia Anjani (5026251067)
+
+Rofifah Zain Nur Alfiyah (5026241131)
+
+Mata Kuliah : Algoritma dan Struktur Data
+
+Dosen Pengampu : Ibu Renny Pradina Kusumawardani

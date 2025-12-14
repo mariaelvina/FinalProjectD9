@@ -110,15 +110,14 @@ public class Menu {
             String name = sc.nextLine();
 
             graph.displayPeopleYouMayKnow(name);
-
             waitEnter();
 
             System.out.println("\nSelect next action: ");
             System.out.println("1. Search again");
             System.out.println("0. Back to Main Menu");
             System.out.print("Choose: ");
-            String pilih = sc.nextLine();
 
+            String pilih = sc.nextLine();
             if (!pilih.equals("1")) return;
         }
     }

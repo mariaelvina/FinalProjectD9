@@ -30,8 +30,6 @@ Media sosial memanfaatkan jaringan pertemanan untuk menampilkan rekomendasi kone
 </br> 
 </br>
 
->2. Tujuan
-
 >2. Fitur-Fitur
 - Add Connection ⟶ menambahkan hubungan pertemanan antara 2 orang
 - People You May Know ⟶ menampilkan rekomendasi teman (level 2) dari teman (level  1)

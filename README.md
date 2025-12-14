@@ -84,5 +84,27 @@ Tahap terakhir adalah mengurutkan daftar rekomendasi yang telah difilter dan dil
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/0d4515e2-fbfd-4172-905c-c2def8ca3123" />
 
 
+>5. Struktur File Proyek
+## 📂 Struktur File
+
+```text
+FinalProjectD9/
+|
+|-- .idea/                         # Konfigurasi IDE (IntelliJ)
+|
+|-- ASD/                           # Source code utama
+|   |
+|   |-- Main.java                  # Entry point program
+|   |-- Menu.java                  # UI menu berbasis console
+|   |-- GraphLogic.java            # Logika graph & mutual friends (BFS)
+|   |-- CSVLoader.java             # Loader data dari file CSV
+|   |-- input.csv                  # Data relasi pertemanan
+|
+|-- FINAL PROJECT ASD D9.pdf       # Laporan akhir proyek
+|
+|-- README.md                      # Dokumentasi proyek
+```
+
+
 
 

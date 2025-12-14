@@ -1,22 +1,23 @@
 # Final Project D9
 
-Topik : Sistem Rekomendasi Teman Berdasarkan Mutual Friends
+Topik         : Sistem Rekomendasi Teman Berdasarkan Mutual Friends
 
-Tema : Implementasi Struktur Data Graph, BFS, dan Algoritma Sorting untuk Fitur Rekomendasi di Media Sosial
+Tema          : Implementasi Struktur Data Graph, BFS, dan Algoritma Sorting untuk Fitur Rekomendasi di Media Sosial
 
 
-Kelas : D
+Kelas         : D
 
-Kelompok : 9
+Kelompok      : 9
 
-Anggota : 
+Anggota       : 
 
-Maria Elvina Putri Damayanti (5026241012)
+- Maria Elvina Putri Damayanti (5026241012)
 
-Tavasya Alia Anjani (5026251067)
+- Tavasya Alia Anjani (5026251067)
 
-Rofifah Zain Nur Alfiyah (5026241131)
+- Rofifah Zain Nur Alfiyah (5026241131)
+  
 
-Mata Kuliah : Algoritma dan Struktur Data
+Mata Kuliah    : Algoritma dan Struktur Data
 
 Dosen Pengampu : Ibu Renny Pradina Kusumawardani

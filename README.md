@@ -39,10 +39,10 @@ Media sosial memanfaatkan jaringan pertemanan untuk menampilkan rekomendasi kone
 </br>
 
 3. Algoritma yang digunakan
-- Struktur Data: Graph (Adjacency List)
-- Algoritma BFS
-- Algoritma Mutual Friends
-- Algoritma Sorting (Bubble Sort)
+- Struktur Data: Graph (Adjacency List) ⟶ 
+- Algoritma BFS ⟶ 
+- Algoritma Mutual Friends ⟶
+- Algoritma Sorting (Bubble Sort) ⟶
  
 4. Screenshoot tampilan program
 
